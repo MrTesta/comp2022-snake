@@ -11,19 +11,20 @@ import javax.swing.ImageIcon;
  */
 public class Snake extends JPanel
 {
-    private String snake = "head.png";
+    private String snake = "images/head_right.png";
 
-    private int dx;
-    private int dy;
+    private int dx = 30 ;
+    private int dy = 0 ;
     private int x;
     private int y;
     private Image image;
     
     public Snake() {
-        ImageIcon ii = new ImageIcon("images/"+this.getClass().getResource(snake));
+        // onde a snake nasce
+        ImageIcon ii = new ImageIcon(this.getClass().getResource(snake));
         image = ii.getImage();
-        x = 40;
-        y = 60;
+        x = 300;
+        y = 350;
     }
     
     public void move() {
@@ -41,6 +42,19 @@ public class Snake extends JPanel
 
     public Image getImage() {
         return image;
+    }
+    
+    public void setdx(int dx){
+        this.dx=dx;
+    }
+    
+    public void setdy(int dy){
+        this.dy=dy;
+    }
+    
+    public void trocarcabeca(String img){
+        ImageIcon ii = new ImageIcon(this.getClass().getResource(img));
+        image = ii.getImage();
     }
 
 }

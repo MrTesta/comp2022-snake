@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Node()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Node\n
+comment1.params=args
+comment1.target=Node(java.lang.String)
+comment2.params=_x
+comment2.target=void\ setX(java.lang.Object)
+comment3.params=
+comment3.target=int\ getX()
+comment4.params=
+comment4.target=int\ getY()
+comment5.params=xx
+comment5.target=void\ setX(int)
+comment6.params=y
+comment6.target=void\ setY(int)
+comment7.params=_proximo
+comment7.target=void\ setProximo(Node)
+comment8.params=
+comment8.target=Node\ getProximo()
+numComments=9

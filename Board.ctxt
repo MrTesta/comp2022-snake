@@ -1,10 +1,14 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Board()
-comment1.params=g
-comment1.target=void\ paint(java.awt.Graphics)
-comment2.params=g
-comment2.target=void\ paintIntro(java.awt.Graphics)
-comment3.params=e
-comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
-numComments=4
+comment1.params=_node
+comment1.target=Node\ inserirFinal(Node)
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment3.params=g
+comment3.target=void\ paint(java.awt.Graphics)
+comment4.params=g
+comment4.target=void\ paintIntro(java.awt.Graphics)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=6
